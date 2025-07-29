@@ -1,11 +1,11 @@
-/* CSS Reset */
+/*CSS Reset*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Variables */
+/*Variables*/
 :root {
   --primary-color: #0074B7;
   --secondary-color: #2C3E50;
@@ -27,6 +27,40 @@ header, main, footer {
   margin: 0 auto;
 }
 
+header {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 20px;
+  background-color: var(--accent2-color);
+  padding: 10px 20px;
+}
+
+header img {
+  width: 100px;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  font-family: var(--heading-font);
+  color: var(--dark-color);
+}
+
+/*Nav Flex Layout*/
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+/*Basic Styles*/
+
 h1, h2 {
   font-family: var(--heading-font);
   color: var(--primary-color);
@@ -41,7 +75,7 @@ nav, p, section, article {
   text-decoration: none;
 }
 
-/* Hero Section */
+/*Hero Section*/
 .hero {
   position: relative;
 }
@@ -80,6 +114,80 @@ nav, p, section, article {
   border-radius: 4px;
 }
 
+/*Grid Layout (History)*/
+.history {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 20px;
+  padding: 16px;
+}
 
+.history .center {
+  text-align: center;
+}
+
+.history .center h2 {
+  margin-bottom: 20px;
+  color: var(--primary-color);
+  padding: 10px;
+}
+
+.history img  {
+  width: 100%;
+  background-color: var(--secondary-color);
+  padding: 10px;
+}
+
+/*Rafting Adventures Section*/
+.adventures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 16px;
+}
+
+.adventures h2 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.adventures figure {
+  width: 18%;
+  text-align: center;
+}
+
+.adventures img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.adventures figcaption {
+  margin-top: 4px;
+  font-size: 0.9rem;
+  color: var(--dark-color);
+}
+
+/*Footer*/
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--accent2-color);
+  padding: 10px 20px;
+  color: #FFF;
+}
+
+footer .socialmedia {
+  display: flex;
+  gap: 12px;
+}
+
+footer .socialmedia img {
+  width: 24px;
+  height: 24px;
+}
 
 
