@@ -50,7 +50,7 @@ header h1 {
 nav ul {
   display: flex;
   list-style: none;
-  gap: 20px;
+  gap: 10px;
 }
 
 nav ul li a {
