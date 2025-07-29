@@ -130,11 +130,11 @@ nav, p, section, article {
 .history .center h2 {
   margin-bottom: 20px;
   color: var(--primary-color);
-  padding: 10px;
+  font-family: var(--heading-font);
 }
 
 .history img  {
-  width: 100%;
+  width: 250px;
   background-color: var(--secondary-color);
   padding: 10px;
 }
