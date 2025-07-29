@@ -7,10 +7,10 @@
 
 /*Variables*/
 :root {
-  --primary-color: #0074B7;
+  --primary-color: #011c2c;
   --secondary-color: #2C3E50;
-  --accent1-color: #D87F29;
-  --accent2-color: #5BC0EB;
+  --accent1-color: #d84329;
+  --accent2-color: #057eb3f3;
   --light-color: #FFF;
   --dark-color: #34495E;
   --heading-font: "Montserrat", sans-serif;
@@ -94,7 +94,7 @@ nav, p, section, article {
   text-align: center;
   background-color: var(--accent1-color);
   color: white;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 .hero article {
@@ -104,7 +104,7 @@ nav, p, section, article {
   right: 20px;
   background-color: white;
   padding: 16px;
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 .hero article img {
