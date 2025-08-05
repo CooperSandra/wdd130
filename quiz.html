@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Form</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header> <!-- Form Heading -->
+        <h1>QUIZ FORM | HTML & CSS</h1>  
+    </header>
+    <main>
+        <form>
+            <div> <!-- Question One, A text type input. -->
+                <label for="q1">1. What does HTML stand for?</label>
+                <input type="text" id="q1" name="q1" required>
+            </div>
+            <div> <!-- Question Two, A textarea element. -->
+                <label for="q2">2. Briefly explain the difference between 'class' and 'id' in CSS.</label>
+                <textarea id="q2" name="q2" rows="4" required></textarea>
+            </div>
+            <div> <!-- Question Three, A select element. -->
+                <label for="q3">3. Select the tag used to insert an image in HTML?</label>
+                <select id="q3" name="q3" required>
+                    <option value="" selected disabled>Choose One...</option>
+                    <option value="img">&lt;img&gt</option>
+                    <option value="image">&lt;image&gt</option>
+                    <option value="src">&lt;src&gt</option>
+                    <option value="alt">&lt;alt&gt</option>
+                </select>
+            </div>
+            <div> <!-- Question Four, A number type input element. -->
+                <label for="q4">4. How many heading levels are there in HTML?</label>
+                <input type="number" id="q4" name="q4" min="1" max="6" required>
+            </div> <!-- Submit Button -->
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+    <footer> <!-- Form Footer -->
+        <p>&copy; 2025 | Quiz Form - HTML & CSS | Sandra Cooper</p>
+    </footer>  
+</body>
+</html>
