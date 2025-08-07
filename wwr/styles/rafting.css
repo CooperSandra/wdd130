@@ -244,10 +244,12 @@ footer .socialmedia img {
 
 .contact-form {
   max-width: 600px;
-  margin: 2rem auto;
+  margin: 1rem auto;
   padding: 1rem;
   color: #000;
   border: none;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   background-color: #E7E7E7;
 }
 
