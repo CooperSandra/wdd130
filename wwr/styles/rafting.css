@@ -23,7 +23,8 @@ body {
 }
 
 header, main, footer {
-  width: 840px;
+  width: 90%;
+  max-width: 840px;
   margin: 0 auto;
 }
 
@@ -192,5 +193,120 @@ footer .socialmedia img {
   width: 24px;
   height: 24px;
 }
+
+/* Contact Page CSS */
+
+.contact-info {
+  margin: 2rem auto;
+  max-width: 800px;
+  padding: 1rem;
+}
+
+.contact-info iframe {
+  width: 100%;
+  height: 300px;
+  border: none;
+}
+
+.team {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 2rem auto;
+  align-self: auto;
+}
+
+.team h2 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.team figure {
+  flex: 1 1 250px;
+  margin: 1rem;
+  text-align: center;
+  max-width: 200px;
+}
+
+.team img{
+  width: 100%;
+  border-radius: 8px;
+}
+
+.contact-form form{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  color: #000;
+  border: none;
+  background-color: #E7E7E7;
+}
+
+.contact-form label {
+  display: block;
+  margin-top: 0.25rem;
+  font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #CCC;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 0.25rem;
+}
+
+.contact-form input[type="radio"],
+.contact-form input[type="checkbox"] {
+  display: inline;
+  width: auto;
+  margin-right: 0.5rem;
+}
+
+.contact-form fieldset {
+  border: 1px solid #CCC;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+.contact-form legend {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.contact-form button {
+  margin-top: 1rem;
+  background-color: var(--accent2-color);
+  color: #FFF;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: var(--accent1-color);
+}
+
+
+
+
+
 
 
