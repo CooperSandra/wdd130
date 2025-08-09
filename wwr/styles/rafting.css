@@ -7,10 +7,10 @@
 
 /*Variables*/
 :root {
-  --primary-color: #011c2c;
+  --primary-color: #0C0C0D;
   --secondary-color: #2C3E50;
-  --accent1-color: #d84329;
-  --accent2-color: #057eb3f3;
+  --accent1-color: #010052;
+  --accent2-color: #04A6EC;
   --light-color: #FFF;
   --dark-color: #011C2C;
   --heading-font: "Montserrat", sans-serif;
@@ -198,7 +198,7 @@ footer .socialmedia img {
 .contact-heading {
   text-align: center;                 
   background-color: var(--accent1-color); 
-  color: white;                         
+  color: #FFFFFF;                         
   padding: 1rem;                        
   border-radius: 4px;                 
   margin: 2rem auto;
