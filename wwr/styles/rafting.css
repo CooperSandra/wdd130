@@ -209,6 +209,7 @@ footer .socialmedia img {
   margin: 2rem auto;
   max-width: 800px;
   padding: 1rem;
+  border-bottom: 3px solid var(--accent1-color);
 }
 
 .contact-info iframe {
