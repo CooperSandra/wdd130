@@ -307,6 +307,7 @@ footer .socialmedia img {
   border: none;
   border-radius: 5px;
   padding: 10px;
+  width: fit-content;
   font-weight: bold;
   transition: background-color 0.3s ease;
   cursor: pointer;
