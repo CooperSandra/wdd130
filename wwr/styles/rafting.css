@@ -194,7 +194,9 @@ footer .socialmedia img {
   height: 24px;
 }
 
-/* Contact Page CSS */
+/* Contact Us Page CSS */
+
+/* */
 .contact-heading {
   text-align: center;                 
   background-color: var(--accent1-color); 
@@ -205,11 +207,15 @@ footer .socialmedia img {
   opacity: 0.8;                                
 }
 
+/* */
+
 .contact-info {
   margin: 2rem auto;
   max-width: 800px;
   padding: 1rem;
   border-bottom: 3px solid var(--accent1-color);
+  text-align: center;
+  background-color: #E7E7E7;
 }
 
 .contact-info iframe {
@@ -217,6 +223,8 @@ footer .socialmedia img {
   height: 350px;
   border: 0;
 }
+
+/* */
 
 .team {
   display: flex;
@@ -245,6 +253,8 @@ footer .socialmedia img {
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+/* */
 
 .contact-form form{
   display: flex;
@@ -300,6 +310,8 @@ footer .socialmedia img {
   font-weight: bold;
   margin-bottom: 0.5rem;
 }
+
+/* */
 
 .contact-form button {
   margin-top: 1rem;
