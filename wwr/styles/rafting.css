@@ -51,13 +51,20 @@ header h1 {
 nav ul {
   display: flex;
   list-style: none;
-  gap: 10px;
+  gap: 2px;
 }
 
-nav ul li a {
+nav ul li a{
+  padding: 6px;
+	background: #FFFFFF;
+  border: 1px solid #04A6EC;
+	border-radius: 4px;  
+	color: #232323;
   text-decoration: none;
-  color: #FFF;
-  font-weight: bold;
+	font-family: var(--body-font);
+	font-weight: 400;
+	font-size: 14px;
+	text-align: center;
 }
 
 /*Basic Styles*/
