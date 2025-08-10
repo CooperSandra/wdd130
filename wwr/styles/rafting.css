@@ -223,7 +223,7 @@ footer .wireframe-link:hover {
 
 /* Contact Us Page CSS */
 
-/* */
+/* Heading */
 .contact-heading {
   text-align: center;                 
   background-color: var(--accent1-color); 
@@ -234,7 +234,7 @@ footer .wireframe-link:hover {
   opacity: 0.8;                                
 }
 
-/* */
+/* Contact Information */
 
 .contact-info {
   margin: 2rem auto;
@@ -257,7 +257,7 @@ footer .wireframe-link:hover {
   border: 0;
 }
 
-/* */
+/* Team Members*/
 
 .team {
   display: flex;
@@ -287,7 +287,7 @@ footer .wireframe-link:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* */
+/* Contact Form */
 
 .contact-form form{
   display: flex;
@@ -344,7 +344,7 @@ footer .wireframe-link:hover {
   margin-bottom: 0.5rem;
 }
 
-/* */
+/* Submit Feedback Button */
 
 .contact-form button {
   margin-top: 1rem;
