@@ -107,7 +107,7 @@ nav, p, section, article {
 
 .hero article {
   position: absolute;
-  bottom: 200px;
+  bottom: 100px;
   left: 20px;
   right: 20px;
   background-color: rgba(255, 255, 255, 0.8);
@@ -127,15 +127,19 @@ nav, p, section, article {
   height: auto;
 }
 
-.hero article button {
+.hero article h2 {
   float: right;
   width: 125px;
   height: 80px;
   margin-left: 16px;
   border-radius: 4px;
   border: none;
-  background-color: var(--accent1-color);
-  color: #E7E7E7;
+  font-size: 20px;
+  text-align: center;
+  padding: 0;
+  background-color: #010052;
+  color: #FFFFFF;
+  cursor: pointer;
 }
 
 /*Grid Layout (History)*/
@@ -382,23 +386,60 @@ footer .wireframe-link:hover {
 
 /* Tours Page CSS */
 
-.tours {
+.trips-gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 10px;
+  gap: 20px;
   padding: 16px;
+  justify-content: space-between;
 }
 
-.tours h2 {
+.trips-gallery h2 {
   width: 100%;
   text-align: center;
   margin-bottom: 16px;
 }
 
-.tours figure {
+.trips-gallery article {
   flex: 1 1 250px;
-  margin: 0 1rem;
+  background: #EDF2FB;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
   text-align: center;
-  max-width: 200px;
 }
+
+.trips-gallery img {
+  border-radius: 4px;
+  margin-top: 8px;
+}
+
+.trips-table {
+  padding: 16px;
+}
+
+.trips-table h2 {
+  margin-bottom: 8px;
+}
+
+.trips-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.trips-table th, .trips-table td {
+  border: 1px solid #DDD;
+  padding: 9px;
+  text-align: center;
+}
+
+.trips-table th {
+  background-color: var(--accent2-color);
+}
+
+
+
+
+
+
+
